@@ -90,7 +90,7 @@ Compliance: ACLs can be used to comply with regulations and industry standards t
 
 It's important to note that while ACLs provide more fine-grained control over access to resources, they can also be more complex to manage and maintain, especially in large and complex environments.
 
-##who can set permissions in linux, windows and macOS for files
+## who can set permissions in linux, windows and macOS for files
 In Linux, Windows, and macOS, permissions for files can be set by users with appropriate access rights.
 
 In Linux, the root user has the ability to set permissions for all files and directories on the system. Additionally, regular users with appropriate permissions can set permissions for files and directories that they own.
