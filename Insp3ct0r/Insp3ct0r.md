@@ -1,15 +1,18 @@
-#Insp3ct0r
+# Insp3ct0r
+
 picoCTF 2019 Web Exploitaion
 
-##Discription
+## Discription
+
 Kishor Balan tipped us off that the following code may need inspection: https://jupiter.challenges.picoctf.org/problem/41511/
 
-##Hints
+## Hints
+
 1-How do you inspect web code on a browser?
 
 2-There's 3 parts
 
-##Walkthrough
+## Walkthrough
 
 1- open the link and click ctrl+shift+i to inspect the page
 
