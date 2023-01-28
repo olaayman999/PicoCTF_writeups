@@ -1,4 +1,4 @@
-#Written by chatGPT
+# Written by chatGPT
 
 ## what is javascript obfuscation 
 JavaScript obfuscation is the process of making JavaScript code difficult to understand or reverse-engineer. This is often done to protect intellectual property, hide malicious code, or make it more difficult for others to copy or modify the code. Obfuscation techniques can include renaming variables and functions, minifying code, and using code obfuscation tools.
@@ -29,3 +29,16 @@ The steps for deobfuscating JavaScript code can vary depending on the specific o
 6-If the code is heavily obfuscated, it might be necessary to manually analyze the code, which could include understanding how the code uses encryption, compression, or code obfuscation techniques, and then reverse engineering those techniques.
 
 Keep in mind that the process of deobfuscation can be time-consuming and may require a significant amount of expertise in JavaScript and reverse engineering.
+
+## what does await WebAssembly do
+await WebAssembly is a JavaScript statement that is used to wait for the completion of a WebAssembly module instantiation.
+
+WebAssembly is a binary instruction format for a stack-based virtual machine. It is designed as a portable target for the compilation of high-level languages like C, C++, and Rust, enabling deployment on the web
+
+A WebAssembly module can be loaded and instantiated using JavaScript's WebAssembly.instantiate() function, which returns a promise that resolves to an object containing the WebAssembly module instance and its associated exports. The await keyword is used to wait for the promise to resolve and to access the instantiated module's exports.
+
+So in this line 
+```javascript
+await WebAssembly[findMiddlePosition(479)](await leftBranch[findMiddlePosition(474)]()) 
+```
+it is likely that the function returns a promise that resolve to the exports of the WebAssembly module. 
